@@ -1,4 +1,4 @@
-package com.hryushonapp.fastnotes.presentation.notes
+package com.hryushonapp.fastnotes.presentation.container
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -7,7 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.hryushonapp.fastnotes.R
 
-class NoteActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

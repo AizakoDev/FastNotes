@@ -5,26 +5,28 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.notes.NoteActivity">
+    tools:context=".presentation.container.MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="320dp"
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginTop="5dp"
-        android:background="#8BC34A"
+        android:background="#ADFFEB3B"
+        android:gravity="center"
+        android:text="Заглушка для рекламного банера"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="0dp"
+    <fragment
+        android:id="@+id/nav_host"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="5dp"
+        app:defaultNavHost="true"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:navGraph="@navigation/navigation_graph" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
