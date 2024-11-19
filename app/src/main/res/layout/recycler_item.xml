@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="wrap_content"
+    tools:context=".presentation.notes.NoteActivity"
+    android:background="@color/black"
+    android:layout_margin="5dp">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageViewAdd"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginTop="5dp"

@@ -1,12 +1,13 @@
-package com.hryushonapp.fastnotes
+package com.hryushonapp.fastnotes.presentation.notes
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.hryushonapp.fastnotes.R
 
-class MainActivity : AppCompatActivity() {
+class NoteActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
