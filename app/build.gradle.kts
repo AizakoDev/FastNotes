@@ -37,6 +37,11 @@ android {
 
 dependencies {
 
+    // module app получает доступ к module data
+    implementation(project(":data"))
+    // module app получает доступ к module domain
+    implementation(project(":domain"))
+
     // Navigation component - Views/Fragments integration
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui)

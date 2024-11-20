@@ -1,4 +1,4 @@
-package com.hryushonapp.fastnotes.domain
+package com.hryushonapp.domain
 
 interface NoteRepository {
     // через этот интерфейс слой даты будет имплементировать себе функции по работе с хранилищем

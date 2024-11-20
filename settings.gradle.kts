@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Fast Notes"
 include(":app")
- 
+include(":data")
+include(":domain")
