@@ -34,6 +34,9 @@ android {
 
 dependencies {
 
+    // Room - основная зависимость для работы с БД
+    implementation(libs.androidx.room.runtime)
+
     // module data получает доступ к module domain
     implementation(project(":domain"))
 
