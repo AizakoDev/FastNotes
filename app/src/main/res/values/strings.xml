@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Fast Notes</string>
+    <string name="note_title">Note Title</string>
+    <string name="save">save</string>
+    <string name="back">back</string>
+    <string name="note_content">note content</string>
+    <string name="edit_title">Edit title your note</string>
+    <string name="edit_text_your_note">Edit text your note</string>
+    <string name="edit">edit</string>
+    <string name="new_note">new</string>
 </resources>
